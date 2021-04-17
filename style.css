@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Neucha";
+  src: url(assets/ofont.ru_Neucha.ttf);
+}
+
 body {
   position: relative;
   width: 1441px;
   height: 7796px;
+}
+.word-style {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: normal;
 }
