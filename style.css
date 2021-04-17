@@ -106,3 +106,22 @@ header {
   text-transform: uppercase;
   color: #fff;
 }
+/* .video-section */
+section {
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+}
+/* hzhzhzhzhzhzzh */
+#v-desc {
+  width: 1110px;
+  height: 146px;
+  left: 165px;
+  top: 100px;
+}
+
+.video-section {
+  height: 914px;
+  top: 914px;
+  background: #fff;
+}
