@@ -179,3 +179,46 @@ header {
   top: 858px;
   background: #42413c;
 }
+
+nav {
+  position: relative;
+  width: 1440px;
+  height: 891px;
+  left: 0;
+  top: 1828px;
+  align-items: center;
+
+  background: #42413c;
+}
+
+nav > ul {
+  position: absolute;
+  width: 1110px;
+  height: 691px;
+  top: 100px;
+  left: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+}
+
+ul > li {
+  /* position: absolute; */
+  list-style-type: none;
+  width: 350px;
+  height: 323px;
+  /* margin: 20px 30px; */
+  border: 2px solid white;
+}
+
+#first-elem-nav {
+  font-size: 52px;
+  line-height: 120%;
+  color: #fff;
+}
+
+b:nth-child(1) {
+  font-weight: normal;
+  color: #fe8a02;
+}
