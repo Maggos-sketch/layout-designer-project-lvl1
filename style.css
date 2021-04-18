@@ -270,3 +270,108 @@ b:nth-child(1) {
 #four-desc {
   top: 200px;
 }
+
+.general-properties {
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.ikea-effect {
+  height: 905px;
+  top: 2719px;
+  background: url(images/background-light.png);
+}
+
+.ikea-image {
+  position: absolute;
+  width: 578px;
+  height: 434px;
+  left: 165px;
+  top: 100px;
+  background: url(images/1.png);
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.kog-name {
+  position: absolute;
+  width: 502px;
+  height: 29px;
+  left: 773px;
+  top: 100px;
+
+  font-size: 24px;
+  line-height: 29px;
+  color: #908d8b;
+}
+.prob-name {
+  position: absolute;
+  width: 502px;
+  height: 72px;
+  left: 773px;
+  top: 129px;
+
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.prob-descr {
+  position: absolute;
+  width: 502px;
+  height: 120px;
+  left: 773px;
+  top: 231px;
+
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.ober {
+  position: absolute;
+  width: 1110px;
+  height: 26px;
+  left: 165px;
+  top: 634px;
+}
+
+.brown-col {
+  background: #b09a81;
+}
+
+.desc {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.l-des {
+  color: #fff;
+}
+
+.tip-style {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.tip-position {
+  position: absolute;
+  width: 540px;
+  height: 125px;
+  top: 680px;
+}
+
+.left-tip {
+  left: 165px;
+}
+
+.right-tip {
+  left: 735px;
+}
