@@ -107,21 +107,75 @@ header {
   color: #fff;
 }
 /* .video-section */
-section {
+.video-section {
   position: absolute;
   width: 1440px;
-  left: 0px;
-}
-/* hzhzhzhzhzhzzh */
-#v-desc {
-  width: 1110px;
-  height: 146px;
-  left: 165px;
-  top: 100px;
+  height: 914px;
+  left: 0;
+  top: 914px;
 }
 
-.video-section {
-  height: 914px;
-  top: 914px;
-  background: #fff;
+#v-desc {
+  position: absolute;
+  width: 782.96px;
+  height: 73px;
+  left: 328.52px;
+  top: 100px;
+
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+}
+
+#v-orange-description {
+  position: absolute;
+  width: 1110px;
+  height: 73px;
+  left: 165px;
+  top: 173px;
+
+  font-size: 60px;
+  line-height: 72px;
+
+  text-align: center;
+}
+
+#kog-isk-P-ch {
+  position: absolute;
+  width: 1110px;
+  height: 26px;
+  left: 165px;
+  top: 310px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.image-video {
+  position: relative;
+  width: 919px;
+  height: 569px;
+  left: 261px;
+  top: 355px;
+
+  background: url(images/video-image.png);
+}
+
+.play-video {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.polosa {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0;
+  top: 858px;
+  background: #42413c;
 }
