@@ -22,6 +22,10 @@ body {
   color: #2a2626;
 }
 
+.white-word {
+  color: #fff;
+}
+
 .head-introduction {
   position: absolute;
   width: 1138px;
@@ -297,33 +301,58 @@ b:nth-child(1) {
   position: absolute;
   width: 502px;
   height: 29px;
-  left: 773px;
+
   top: 100px;
 
   font-size: 24px;
   line-height: 29px;
+}
+
+.kog-name__position-right {
+  left: 773px;
   color: #908d8b;
 }
+
+.kog-name__position-left {
+  left: 165px;
+  color: #d7ccc0;
+}
+
 .prob-name {
   position: absolute;
   width: 502px;
   height: 72px;
-  left: 773px;
   top: 129px;
 
   font-size: 60px;
   line-height: 72px;
 }
 
+.prob-name__position-right {
+  left: 773px;
+}
+.prob-name__position-left {
+  left: 165px;
+  color: #fff;
+}
+
 .prob-descr {
   position: absolute;
   width: 502px;
   height: 120px;
-  left: 773px;
   top: 231px;
 
   font-size: 34px;
   line-height: 41px;
+}
+
+.prob-descr__position-right {
+  left: 773px;
+}
+
+.prob-descr__position-left {
+  left: 165px;
+  color: #fff;
 }
 
 .ober {
@@ -332,10 +361,15 @@ b:nth-child(1) {
   height: 26px;
   left: 165px;
   top: 634px;
+  padding-left: 10px;
 }
 
 .brown-col {
   background: #b09a81;
+}
+
+.white-col {
+  background: #fff;
 }
 
 .desc {
@@ -350,6 +384,10 @@ b:nth-child(1) {
 
 .l-des {
   color: #fff;
+}
+
+.b-desc {
+  color: #b09a81;
 }
 
 .tip-style {
@@ -374,4 +412,52 @@ b:nth-child(1) {
 
 .right-tip {
   left: 735px;
+}
+
+.prem-optimization {
+  position: absolute;
+  width: 1440px;
+  height: 855px;
+  left: 0;
+  top: 3624px;
+  background: #b09a81;
+}
+.fon-img {
+  position: absolute;
+  width: 1440px;
+  height: 855px;
+  left: 0;
+  background: url(images/background.png);
+  opacity: 0.2;
+}
+
+.prob-image {
+  position: absolute;
+  width: 578px;
+  height: 434px;
+  top: 100px;
+
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.prob-image__r-position {
+  left: 697px;
+}
+
+.po-img {
+  background: url(images/2.png);
+}
+
+#p-des {
+  height: 123px;
+  top: 303px;
+}
+
+#p-o__left-p {
+  height: 75px;
+}
+
+#p-o__right-p {
+  height: 75px;
+  left: 775px;
 }
