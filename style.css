@@ -461,3 +461,20 @@ b:nth-child(1) {
   height: 75px;
   left: 775px;
 }
+
+.isk-new {
+  position: absolute;
+  width: 1440px;
+  height: 880px;
+  left: 0px;
+  top: 4479px;
+  background: #f5f4f0;
+}
+
+#isk-img {
+  height: 880px;
+}
+
+#isk-image {
+  background: url(images/3.png);
+}
