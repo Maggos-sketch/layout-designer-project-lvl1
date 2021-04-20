@@ -496,3 +496,16 @@ b:nth-child(1) {
   height: 164px;
   top: 303px;
 }
+
+.osh-plan {
+  position: absolute;
+  width: 1440px;
+  height: 919px;
+  left: 0;
+  top: 6296px;
+  background: #f5f4f0;
+}
+
+#osh-img {
+  background: url(images/5.png);
+}
