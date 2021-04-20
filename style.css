@@ -478,3 +478,21 @@ b:nth-child(1) {
 #isk-image {
   background: url(images/3.png);
 }
+
+.gip-obes {
+  position: absolute;
+  width: 1440px;
+  height: 937px;
+  left: 0;
+  top: 5359px;
+  background: #b09a81;
+}
+
+.gipo-img {
+  background: url(images/4.png);
+}
+
+#gip-des {
+  height: 164px;
+  top: 303px;
+}
