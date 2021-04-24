@@ -609,6 +609,10 @@ footer {
   line-height: 160%;
 }
 
+.pr-serv {
+  color: #fff;
+}
+
 .footer-bottom-descrip {
   position: relative;
   width: 480px;
@@ -655,4 +659,8 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 160%;
+}
+
+.b-link {
+  color: #1085c5;
 }
