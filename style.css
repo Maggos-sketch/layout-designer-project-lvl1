@@ -570,6 +570,17 @@ footer {
 
 .email-field__area {
   width: 423px;
+  outline: none;
+  padding-left: 15px;
+}
+
+.email-field__area::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.1px;
+  color: #757575;
+  opacity: 0.2;
 }
 
 .email-field__button {
