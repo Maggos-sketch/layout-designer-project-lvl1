@@ -109,6 +109,12 @@ header {
   line-height: 160%;
   text-transform: uppercase;
   color: #fff;
+  border: 0;
+}
+
+.button-act:hover {
+  background: #ea7600;
+  outline: none;
 }
 /* .video-section */
 .video-section {
