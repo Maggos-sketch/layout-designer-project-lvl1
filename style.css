@@ -509,3 +509,139 @@ b:nth-child(1) {
 #osh-img {
   background: url(images/5.png);
 }
+
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 581px;
+  left: 0;
+  top: 7215px;
+  background: #fff;
+}
+
+.footer-info-block {
+  position: relative;
+  width: 1110px;
+  height: 190px;
+  left: 165px;
+  top: 100px;
+
+  background: #42413c;
+}
+
+.footer-info-block__description {
+  position: absolute;
+  width: 393px;
+  height: 80px;
+  left: 55px;
+  top: 55px;
+
+  font-size: 34px;
+  line-height: 120%;
+}
+
+.sans-style {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer-info-block__mail-des {
+  position: absolute;
+  width: 184px;
+  height: 28px;
+  left: 570px;
+  top: 38px;
+
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.email-field {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  left: 570px;
+  top: 75px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.email-field__area {
+  width: 423px;
+}
+
+.email-field__button {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  background: #fe8a02;
+}
+
+.email-field__button__img {
+  position: absolute;
+  /* left: 1.5em;
+  top: 1em; */
+  padding: 1em 1.7em;
+  outline: none;
+}
+
+.footer-info-block__license {
+  position: absolute;
+  width: 286px;
+  height: 25px;
+  left: 570px;
+  top: 125px;
+
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.footer-bottom-descrip {
+  position: relative;
+  width: 480px;
+  height: 98px;
+  left: 484px;
+  top: 192px;
+}
+
+.footer-bottom-descrip__footer-author {
+  position: absolute;
+  width: 289px;
+  height: 22px;
+  left: 91px;
+  top: -20px;
+
+  font-size: 14px;
+  line-height: 160%;
+  color: #000;
+}
+
+.footer-bottom-descrip__so-author {
+  position: absolute;
+  width: 471px;
+  height: 25px;
+  left: 0;
+  top: 18px;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 160%;
+
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+.footer-bottom-descrip__link {
+  position: absolute;
+  top: 75px;
+  left: 122px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+}
