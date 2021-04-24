@@ -235,6 +235,22 @@ b:nth-child(1) {
   background: #f5f4f0;
 }
 
+.navigation:hover {
+  background: #fe8a02;
+}
+
+.navigation:hover .naw-number {
+  color: #fff;
+}
+
+.navigation:hover .naw-name {
+  color: #fff;
+}
+
+.navigation:hover .naw-description {
+  color: #fff;
+}
+
 .naw-number {
   position: absolute;
   width: 23px;
